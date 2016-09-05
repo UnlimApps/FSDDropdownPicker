@@ -83,10 +83,6 @@
         _tableView.rowHeight = self.rowHeight;
         _tableView.backgroundColor = self.dropdownBackgroundColor;
         _tableView.layer.masksToBounds = NO;
-        _tableView.layer.shadowColor = [UIColor blackColor].CGColor;
-        _tableView.layer.shadowOffset = CGSizeMake(0.0f, 4.0f);
-        _tableView.layer.cornerRadius = 2.0f;
-        _tableView.layer.shadowOpacity = 0.3f;
         
         [self hideDropdownAnimated:NO];
     }
